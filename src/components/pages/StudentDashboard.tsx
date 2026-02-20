@@ -63,11 +63,15 @@ export default function StudentDashboard() {
 
     if (currentStudent) {
       const appsResult = await BaseCrudService.getAll<JobApplications>('applications');
-      const appsWithDetails = appsResult.items.map(app => ({
-        ...app,
-        job: jobsResult.items[0],
-        company: companiesResult.items[0]
-      }));
+      const appsWithDetails = appsResult.items.map(app => {
+        const job = jobsResult.items.find(j => j._id === app.applicationIdentifier);
+        const company = job ? companiesResult.items.find(c => c._id === job._id) || companiesResult.items[0] : companiesResult.items[0];
+        return {
+          ...app,
+          job,
+          company
+        };
+      });
       setApplications(appsWithDetails);
     }
 
