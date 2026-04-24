@@ -1,5 +1,5 @@
 
-## 🚀 Features
+##  Features
 
 - **Astro Framework** - Modern static site generator with server-side rendering
 - **React Integration** - Full React support with JSX components
@@ -14,7 +14,7 @@
 - **Testing** - Vitest testing framework setup
 - **Development Tools** - ESLint, TypeScript checking, and more
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework**: Astro 5.8.0
 - **Frontend**: React 18.3.0
@@ -28,7 +28,7 @@
 - **Deployment**: Cloudflare
 
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -55,7 +55,7 @@
 
 The development server will start and you can view your site at `http://localhost:4321`.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 main/
@@ -75,7 +75,7 @@ main/
 └── eslint-rules/          # Custom ESLint rules
 ```
 
-## 🎨 UI Components
+## UI Components
 
 This template includes a comprehensive set of UI components built with Radix UI and styled with Tailwind CSS:
 
@@ -87,7 +87,7 @@ This template includes a comprehensive set of UI components built with Radix UI 
 - **Data Display**: Table, Card, Badge, Avatar
 - **Interactive**: Button, Toggle, Slider, Command
 
-## 🔧 Available Scripts
+## Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
@@ -98,7 +98,7 @@ This template includes a comprehensive set of UI components built with Radix UI 
 - `npm run test:run` - Run tests
 - `npm install` - Install dependencies
 
-## 🧪 Testing
+## Testing
 
 The project includes Vitest for testing:
 
@@ -106,7 +106,7 @@ The project includes Vitest for testing:
 npm run test:run
 ```
 
-## 📱 Responsive Design
+##  Responsive Design
 
 The template is built with a mobile-first approach and includes:
 
@@ -115,7 +115,7 @@ The template is built with a mobile-first approach and includes:
 - Optimized images
 - Flexible layouts
 
-## 🚀 Deployment
+##  Deployment
 
 The template is configured for deployment on Cloudflare:
 
@@ -123,7 +123,7 @@ The template is configured for deployment on Cloudflare:
 npm run build
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
